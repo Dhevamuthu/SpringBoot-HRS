@@ -1,0 +1,77 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .image-side {
+    background: url("https://t3.ftcdn.net/jpg/08/14/79/50/360_F_814795016_ri4j9MDAgOzgxvE0X8iERe7a6WWsWIVe.jpg")
+      center/cover;
+    height: 550px;
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    width: 450px;
+  }
+  .login-form .form-control {
+    height: 40px;  
+    font-size: 14px; 
+    padding: 8px; 
+    border-radius: 6px; 
+  }
+  
+  .login-form .form-control::placeholder {
+    font-size: 13px;
+    color: #999; 
+  }
+  
+  
+  .app-name {
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .app-quote {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .remember-forgot {
+    padding-top: 5%;
+  }
+
+  .forgot-password {
+    color: rgba(73,57,104,255);font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+    color: rgba(79,97,183,255);
+  }
+  
+  .login-form {
+    margin-top: 15px;
+    padding-top: 10%;
+  }
+  
+  .login-btn {
+    background-color:black;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  
+

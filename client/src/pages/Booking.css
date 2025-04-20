@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  /* Booking container */
+  .booking-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Booking card with gradient background */
+  .booking-card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Image at the top */
+  .booking-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Title styling */
+  h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Input fields */
+  .MuiTextField-root {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* Stay Duration */
+  .stay-duration {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Added Rooms Display */
+  .room-list {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Book Button */
+  .MuiButton-root {    
+    font-weight: bold;
+  }
+  .phone-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .phone-container button {
+    width: 30%;
+    margin-top: 5px;
+    background-color: rgb(108, 195, 108);
+    height: 50px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  .phone-container button:hover{
+    box-shadow: 10px 5px 5px black;
+    transition: .5s;
+  }
+  
